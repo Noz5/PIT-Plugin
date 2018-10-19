@@ -58,4 +58,13 @@ body {
 
 if (!defined('WP_POST_REVISIONS')) define('WP_POST_REVISIONS', 5);
 
+/** CUSTOM WP LOGIN **/
+function pit_login_logo() {
+    echo '<style type="text/css">
+        h1 a {
+        background-image:url(https://pitdesigns.com/wp-content/uploads/2014/10/PIT-Designs-Logo.png) !important;
+        }
+    </style>';
+}
 
+add_action('login_head', 'pit_login_logo');
