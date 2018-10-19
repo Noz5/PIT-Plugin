@@ -39,9 +39,9 @@ function message()
 
 /** STYLE ADMIN PANEL **/
 
-add_action('admin_head', 'my_style');
+add_action('admin_head', 'pit_styles');
 
-function my_style()
+function pit_styles()
 {
     echo '<style>
 body {
