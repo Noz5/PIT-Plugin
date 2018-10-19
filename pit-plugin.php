@@ -57,6 +57,5 @@ body {
 /** LIMIT WP REVISIONS **/
 
 if (!defined('WP_POST_REVISIONS')) define('WP_POST_REVISIONS', 5);
-if (!defined('WP_POST_REVISIONS')) define('WP_POST_REVISIONS', false);
 
 
