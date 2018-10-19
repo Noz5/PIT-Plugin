@@ -8,6 +8,7 @@
  * Author URI: https://pitdesigns.com
  * Version: 1.0
  */
+
 /** Admin Footer Branding **/
 
 function remove_footer_admin()
@@ -16,6 +17,7 @@ function remove_footer_admin()
 }
 
 add_filter('admin_footer_text', 'remove_footer_admin');
+
 /**  Dashboard Widget **/
 add_action('wp_dashboard_setup', 'pit_widget');
 
